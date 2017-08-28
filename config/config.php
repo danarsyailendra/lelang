@@ -1,7 +1,7 @@
 <?php
 
-$con = mysqli_connect("10.15.16.31", "lelang", "metra456", "lelang");
-//$con = mysqli_connect("118.97.63.84", "lelang", "metra456", "lelang");
+//$con = mysqli_connect("10.15.16.31", "lelang", "metra456", "lelang");
+$con = mysqli_connect("118.97.63.84", "lelang", "metra456", "lelang");
 // Check connection
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
